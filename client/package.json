@@ -1,5 +1,5 @@
 {
-  "name": "multi-k8s-ts",
+  "name": "multi-k8s",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
