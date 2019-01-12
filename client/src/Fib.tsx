@@ -4,7 +4,7 @@ import axios from 'axios';
 class Fib extends Component {
   state = {
     seenIndexes: [],
-    values: {},
+    values: [],
     index: ''
   };
 
@@ -25,7 +25,7 @@ class Fib extends Component {
     });
   }
 
-  handleSubmit = async event => {
+  handleSubmit = async (event: any) => {
     event.preventDefault();
 
     await axios.post('/api/values', {
